@@ -32,6 +32,7 @@ void setup()
   pinMode(buttonPin, INPUT);
   Serial.begin(9600);
   pinMode(ledPin, OUTPUT);
+
 }
 
 byte read_button(byte pin, byte ref_value)
